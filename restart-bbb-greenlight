@@ -1,0 +1,1 @@
+cd /root/greenlight && /usr/bin/bbb-conf --setsecret 225377ef9db634daa15626aac78668dec192c7e82a4a && cd /root/greenlight && /usr/bin/bbb-conf --restart && cd /root/greenlight && /usr/local/bin/docker-compose down && cd /root/greenlight && /usr/local/bin/docker-compose up -d && /bin/sleep 10 && /bin/systemctl restart nginx
